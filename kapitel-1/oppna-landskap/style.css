@@ -1,0 +1,26 @@
+body {
+    background-image: url("./bilder/image-24.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+h1 {
+    font-family: "SUSE", sans-serif;
+    margin-left: 100px;
+    font-size: 50px;
+}
+p {
+font-family: "Merriweather", serif;
+background-color: #5746d86b;
+width: 500px;
+padding: 20px;
+margin-left: 100px;
+border-radius: 50px;
+}
+img {
+margin-left: 100px;
+width: 200px;
+}
+a {
+
+}
