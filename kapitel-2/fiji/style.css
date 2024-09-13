@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    background-image: url("./bilder/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: "SUSE", sans-serif;
+    font-size: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 rgba(124, 104, 238, 0.745);
+    margin-top: 70px;
+    margin-left: 100px;
+
+}
+
+h2 {
+    font-family: "SUSE", sans-serif;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 5px 5px 0 rgba(124, 104, 238, 0.745);
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+p {
+    font-family: "SUSE", sans-serif;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 1000px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(124, 104, 238, 0.745);
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
