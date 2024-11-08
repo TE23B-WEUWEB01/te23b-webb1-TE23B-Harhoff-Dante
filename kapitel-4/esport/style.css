@@ -24,9 +24,23 @@ body {
     padding: 50px;
     background-color: #E8DFF4;
 }
+.kolumner {
+    display: flex;
+    gap: 30px;
+}
+.kolumner2 {
+    display: flex;
+    gap: 30px;
+}
 .box {
     background-color: #5A5A5A;
     color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    border-radius: 30px;
 }
 
 /* Rubrikerna */
@@ -35,15 +49,18 @@ h1 {
     font-family: "Faster One", system-ui;
     font-size: 60px;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 h2 {
-    
+    margin-bottom: 30px;
 }
 
 /* Innehållet */
 
 img {
-    width: 30%;
+    width: 50%;
+    border-radius: 10px;
+    border: 3px solid #fff;
 }
 p {
 
