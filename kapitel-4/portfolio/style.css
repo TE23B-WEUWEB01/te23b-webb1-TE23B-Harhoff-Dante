@@ -96,3 +96,6 @@ td {
 a {
     color: yellow;
 }
+a:hover {
+    color: #fff;
+}
