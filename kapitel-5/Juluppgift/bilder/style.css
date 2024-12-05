@@ -1,0 +1,53 @@
+
+/* Enkel CSS-reset */
+html {
+   box-sizing: border-box;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+   margin: 0;
+   padding: 0;
+}
+
+/* layotens utseende */
+
+body {
+    background-color: #c40909;
+    color: #fff;
+}
+.kontainer {
+    width: 1000px;
+    background-color: orange;
+    margin: auto;
+}
+div {
+    
+}
+ul {
+    display: flex;
+}
+li {
+    margin: auto 20px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: yellow;
+}
+.aktiv {
+    color: #fff;
+}
+
+/* innehållet */
+
+h1 {
+
+}
+img {
+
+}
+p {
+
+}
