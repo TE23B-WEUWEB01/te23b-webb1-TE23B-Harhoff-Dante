@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mountains+of+Christmas:wght@400;700&display=swap');
 
 /* Enkel CSS-reset */
+
 html {
    box-sizing: border-box;
 }
@@ -16,38 +18,67 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 body {
     background-color: #c40909;
     color: #fff;
+    font-family: "Lato", sans-serif;
 }
 .kontainer {
     width: 1000px;
     background-color: orange;
     margin: auto;
+    padding: 30px;
 }
-div {
-    
-}
-ul {
+.box {
+    margin: 50px auto;
+    width: auto;
+    padding: 20px;
     display: flex;
+    background-color: yellow;
+    border-radius: 40px;
 }
-li {
-    margin: auto 20px;
+.kontainer ul {
+    display: flex;
+    font-size: 30px;
+    width: auto;
+}
+.kontainer ul li {
+    margin: 20px auto;
     list-style-type: none;
 }
-a {
+.kontainer ul a {
+    background-color: #c40909;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 2px 2px 0 black;
     text-decoration: none;
     color: yellow;
 }
-.aktiv {
-    color: #fff;
+.kontainer ul a:hover {
+    color: #c40909;
+    background-color: yellow;
+}
+.kontainer ul .aktiv {
+    color: #c40909;
+    background-color: yellow;
 }
 
 /* innehållet */
 
-h1 {
+.kontainer h1 {
+    color: yellow;
+    margin: 20px auto;
+    font-size: 80px;
+    text-align: center;
+    font-family: "Mountains of Christmas", serif;
+}
+.kontainer img {
+    width: 25%;
+    border-radius: 30px;
+}
+.kontainer p {
+    margin: 20px 20px;
+    font-size: 20px;
+    color: #c40909;
 
 }
-img {
 
-}
-p {
-
-}
