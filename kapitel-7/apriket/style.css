@@ -33,22 +33,28 @@ body {
    "sidhuvud sidhuvud" 
    "artiklarna sidebar"
    "sidfot sidfot";
+   gap: 20px;
 }
 header {
    grid-area: sidhuvud;
-   background-color: rosybrown;
 }
 main {
    grid-area: artiklarna;
-   background-color: royalblue;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 20px;
 }
 aside {
    grid-area: sidebar;
-   background-color: goldenrod;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 20px;
 }
 footer {
    grid-area: sidfot;
-   background-color: blueviolet;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 20px;
 }
 
 /* sidhuvud */
@@ -65,17 +71,23 @@ header h2 {
 
 /* Menyn */
 header nav {
-    
+   background: rgb(75,241,13);
+   background: linear-gradient(0deg, rgba(75,241,13,1) 0%, rgba(52,146,44,1) 50%, rgba(89,201,21,1) 100%, rgba(0,36,1,1) 100%);
+   padding: 15px 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-radius: 5px;
 }
 header nav a {
-    
+   color: #fff;
+   text-decoration: none;
+   padding: 15px;
 }
 header nav a.aktkiv {
-    
-}
+   background: rgb(69,204,19);
+   background: linear-gradient(0deg, rgba(69,204,19,1) 0%, rgba(38,98,33,1) 50%, rgba(88,204,18,1) 100%, rgba(0,36,1,1) 100%);}
 header nav a:hover {
-    
-}
+   background: rgb(69,204,19);
+   background: linear-gradient(0deg, rgba(69,204,19,1) 0%, rgba(38,98,33,1) 50%, rgba(88,204,18,1) 100%, rgba(0,36,1,1) 100%);}
 
 /* sidans innehåll - artikler, text mm */
 main {
@@ -88,7 +100,11 @@ main article h3 {
 
 }
 main article figure {
-
+   width: 50%;
+   margin: auto;
+   margin-bottom: 15px;
+   padding: 30px;
+   border: 1px solid #aaa;
 }
 main article figure img {
 
@@ -97,7 +113,7 @@ main article figure figcaption {
 
 }
 main article p {
-
+   
 }
 
 /* sidobar */
