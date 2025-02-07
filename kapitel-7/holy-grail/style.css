@@ -1,0 +1,51 @@
+
+
+/* Enkel CSS-reset */
+html {
+   box-sizing: border-box;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+   margin: 0;
+   padding: 0;
+}
+img {
+width: 100%;
+}
+
+/* Holy Grail layouten */
+.kontainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "sidhuvud sidhuvud sidhuvud"
+    "meny artiklar sidebar"
+    "sidfot sidfot sidfot";
+    width: 1200px;
+    margin: auto;
+}
+header {
+    background-color: brown;
+    grid-area: sidhuvud;
+    height: 10vh;    
+}
+nav {
+    background-color: blueviolet;
+    grid-area: meny;
+    height: 80vh;
+}
+main {
+    background-color: teal;
+    grid-area: artiklar;
+}
+aside {
+    background-color: royalblue;
+    grid-area: sidebar;
+}
+footer {
+    background-color: hotpink;
+    grid-area: sidfot;
+    height: 10vh;
+}
