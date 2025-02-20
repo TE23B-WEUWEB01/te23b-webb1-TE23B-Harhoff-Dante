@@ -20,21 +20,54 @@ body {
    background-image: url(./bilder/philipp-katzenberger-VGFGJRBSHc0-unsplash.jpg);
 }
 .kontainer {
-   width: 1000px;
-   margin: auto;
-   padding: 20px;
+
 }
 
 /* Bygga layouten */
-.kontainer {
-   display: grid;
-   grid-template-columns: 3fr 1fr;
-   grid-template-areas: 
-   "sidhuvud sidhuvud" 
-   "artiklarna sidebar"
-   "sidfot sidfot";
-   gap: 20px;
+/* för mobil < 576px */
+@media (min-width: 576px) {
+   .kontainer {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-areas: 
+      "sidhuvud" 
+      "artiklarna"
+      "sidebar"
+      "sidfot";
+      gap: 20px;
+   }
 }
+/* för läsplatta < 768px */
+@media (min-width: 768px) {
+   .kontainer {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-template-areas: 
+      "sidhuvud sidhuvud" 
+      "artiklarna sidebar"
+      "sidfot sidfot";
+      gap: 20px;
+   }
+}
+/* för desktop >= 1200px */
+@media (min-width: 1200px) {
+   .kontainer {
+      width: 1200px;
+      margin: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-template-areas: 
+      "sidhuvud sidhuvud" 
+      "artiklarna sidebar"
+      "sidfot sidfot";
+      gap: 20px;
+   }
+}
+
+
 header {
    grid-area: sidhuvud;
 }
