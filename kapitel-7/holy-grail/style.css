@@ -27,7 +27,7 @@ width: 100%;
     margin: auto;
 }
 header {
-    background-color: brown;
+    background-color: brown;    
     grid-area: sidhuvud;
     height: 10vh;    
 }
